@@ -55,7 +55,7 @@ This script simulates a one-dimensional Ising model with a variable external mag
 - `temperatures`: A vector of different temperature values used to observe system behavior under different thermal fluctuations.
 
 The script uses the Metropolis algorithm to determine spin flips, calculates average magnetization, and plots magnetization versus external field for each temperature.  
-*(See [MagnetizationVSExternalField.m](citeturn1file0) for full details.)*
+*(See [MagnetizationVSExternalField.m](./MagnetizationVSExternalField.m) for full details.)*
 
 ### MagnetizationVSTempretureForExternalField.m  
 This script focuses on the effect of temperature on the magnetization of the Ising model in the presence of fixed external fields. Key parameters include:
@@ -65,7 +65,7 @@ This script focuses on the effect of temperature on the magnetization of the Isi
 - `temperatures`: A range of temperatures over which the simulation is performed.
 
 Similarly, the Monte Carlo simulation is run for each temperature and field combination, with the magnetization computed and plotted to highlight how thermal fluctuations impact the collective behavior.  
-*(See [MagnetizationVSTempretureForExternalField.m](citeturn1file1) for full details.)*
+*(See [MagnetizationVSTempretureForExternalField.m](./MagnetizationVSTempretureForExternalField.m) for full details.)*
 
 ## Research Paper
 
